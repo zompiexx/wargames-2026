@@ -1,0 +1,17 @@
+{
+  "provider": "local_llamacpp",
+  "api_base": "http://127.0.0.1:8766",
+  "model": "gemma-4-E4B-it-UD-Q4_K_XL",
+  "temperature": 0.65,
+  "top_p": 0.9,
+  "max_tokens": 1024,
+  "context_size": 32768,
+  "api_key": "",
+  "local_llamacpp": {
+    "server_path": "../llama.cpp/build/bin/llama-server",
+    "model_path": "../models/gemma-4-E4B-it-UD-Q4_K_XL.gguf",
+    "host": "127.0.0.1",
+    "port": 8766,
+    "gpu_layers": 999
+  }
+}
