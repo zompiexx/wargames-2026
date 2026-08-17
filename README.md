@@ -232,23 +232,21 @@ The Tic-Tac-Toe program includes 0-, 1- and 2-player modes; in 0-player
 mode the computer plays itself as part of the familiar WarGames
 sequence.
 
-## BASIC-80 / CP/M Version
+## Original Version and BASIC-80 Source
 
-The historical BASIC-80 version remains part of the project.
+WarGames 2026 Edition is descended from the original **WarGames Movie
+Simulator**, first developed in SuperBASIC on the Sinclair QL, later
+rewritten in BASIC-80 for CP/M, and subsequently developed into the C
+version on which this edition is based.
 
-To run it on a CP/M system you will need a suitable 64K CP/M
-environment. A disk image is included for use with compatible
-systems/emulators such as Z80PACK or the IMSAI 8080esp.
+The original project---including the **BASIC-80 source code, CP/M disk
+image, earlier C implementation, documentation and project
+history**---is preserved separately:
 
-From CP/M:
+https://github.com/zompiexx/wargames
 
-``` text
-MBASIC WARGAMES
-```
-
-The BASIC version predates many of the features in the modern C/2026
-implementation but is retained both for historical interest and because
-it can run on period-style hardware.
+This repository focuses on the **2026 Edition** and its modern C, Python
+and AI components.
 
 ## Running on Retro Hardware
 
