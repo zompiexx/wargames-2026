@@ -3,13 +3,3 @@ password
 root
 9
 Never
-andy
-password
-Andy
-9
-Never
-aida
-password
-Aida
-9
-Never
