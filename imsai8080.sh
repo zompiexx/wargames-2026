@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd $HOME/wargames
+cd $HOME/wargames-2026
 
 ./imsai8080
 
